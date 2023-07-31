@@ -1,4 +1,7 @@
-import { formatRandomCommentDate, formatRandomPostDate } from "../utils/authUtils";
+import {
+  formatRandomCommentDate,
+  formatRandomPostDate,
+} from "../utils/authUtils";
 
 /**
  * Posts can be added here.
@@ -8,15 +11,17 @@ import { formatRandomCommentDate, formatRandomPostDate } from "../utils/authUtil
 export const posts = [
   {
     _id: "1",
-    content: "Checkout my new portfolio https://shobhit-raj.netlify.app/",
+    content:
+      "Checkout my linkedIn profile https://www.linkedin.com/in/divyank-manjarwar-12b267237/",
     pic: "",
-    username: "shobhitraj",
+    username: "manjarwar_03",
     postedBy: {
       _id: "1",
-      firstName: "Shobhit",
-      lastName: "Raj",
-      username: "shobhitraj",
-      profile_pic: "https://pbs.twimg.com/profile_images/1266934374060052480/O3nYz9s-_400x400.jpg",
+      firstName: "Divyank",
+      lastName: "Manjarwar",
+      username: "manjarwar_03",
+      profile_pic:
+        "https://media.licdn.com/dms/image/D4D03AQEo_FXvcq9DKw/profile-displayphoto-shrink_800_800/0/1686841927153?e=1696464000&v=beta&t=jHDH7v1OnJQ_LPdWk3VtawmE2eWekkYUowo5FVEkt_Q",
     },
     likes: {
       likeCount: 2,
@@ -26,14 +31,16 @@ export const posts = [
           firstName: "Ayush",
           lastName: "Singh",
           username: "ayush",
-          profile_pic: "https://res.cloudinary.com/randomwave45/image/upload/v1650022196/one_piece_1_anib9s.jpg",
+          profile_pic:
+            "https://res.cloudinary.com/randomwave45/image/upload/v1650022196/one_piece_1_anib9s.jpg",
         },
         {
           _id: "2",
           firstName: "Rahul",
           lastName: "Mallick",
           username: "mallick",
-          profile_pic: "https://staticg.sportskeeda.com/editor/2022/07/c2ed4-16587439752781.png",
+          profile_pic:
+            "https://staticg.sportskeeda.com/editor/2022/07/c2ed4-16587439752781.png",
         },
       ],
       dislikedBy: [],
@@ -48,17 +55,19 @@ export const posts = [
           firstName: "Ayush",
           lastName: "Singh",
           username: "ayush",
-          profile_pic: "https://res.cloudinary.com/randomwave45/image/upload/v1650022196/one_piece_1_anib9s.jpg",
+          profile_pic:
+            "https://res.cloudinary.com/randomwave45/image/upload/v1650022196/one_piece_1_anib9s.jpg",
         },
         replies: [
           {
             _id: "1",
             user: {
               _id: "1",
-              firstName: "Shobhit",
-              lastName: "Raj",
-              username: "shobhitraj",
-              profile_pic: "https://pbs.twimg.com/profile_images/1266934374060052480/O3nYz9s-_400x400.jpg",
+              firstName: "Divyank",
+              lastName: "Manjarwar",
+              username: "manjarwar_03",
+              profile_pic:
+                "https://media.licdn.com/dms/image/D4D03AQEo_FXvcq9DKw/profile-displayphoto-shrink_800_800/0/1686841927153?e=1696464000&v=beta&t=jHDH7v1OnJQ_LPdWk3VtawmE2eWekkYUowo5FVEkt_Q",
             },
             content: "Thanks",
           },
@@ -75,17 +84,19 @@ export const posts = [
           firstName: "Rahul",
           lastName: "Mallick",
           username: "mallick",
-          profile_pic: "https://staticg.sportskeeda.com/editor/2022/07/c2ed4-16587439752781.png",
+          profile_pic:
+            "https://staticg.sportskeeda.com/editor/2022/07/c2ed4-16587439752781.png",
         },
         replies: [
           {
             _id: "1",
             user: {
               _id: "1",
-              firstName: "Shobhit",
-              lastName: "Raj",
-              username: "shobhitraj",
-              profile_pic: "https://pbs.twimg.com/profile_images/1266934374060052480/O3nYz9s-_400x400.jpg",
+              firstName: "Divyank",
+              lastName: "Manjarwar",
+              username: "manjarwar_03",
+              profile_pic:
+                "https://media.licdn.com/dms/image/D4D03AQEo_FXvcq9DKw/profile-displayphoto-shrink_800_800/0/1686841927153?e=1696464000&v=beta&t=jHDH7v1OnJQ_LPdWk3VtawmE2eWekkYUowo5FVEkt_Q",
             },
             content: "Thanks",
           },
@@ -107,7 +118,8 @@ export const posts = [
       firstName: "Rahul",
       lastName: "Mallick",
       username: "mallick",
-      profile_pic: "https://staticg.sportskeeda.com/editor/2022/07/c2ed4-16587439752781.png",
+      profile_pic:
+        "https://staticg.sportskeeda.com/editor/2022/07/c2ed4-16587439752781.png",
     },
     likes: {
       likeCount: 3,
@@ -117,21 +129,24 @@ export const posts = [
           firstName: "Ayush",
           lastName: "Singh",
           username: "ayush",
-          profile_pic: "https://res.cloudinary.com/randomwave45/image/upload/v1650022196/one_piece_1_anib9s.jpg",
+          profile_pic:
+            "https://res.cloudinary.com/randomwave45/image/upload/v1650022196/one_piece_1_anib9s.jpg",
         },
         {
           _id: "1",
-          firstName: "Shobhit",
-          lastName: "Raj",
-          username: "shobhitraj",
-          profile_pic: "https://pbs.twimg.com/profile_images/1266934374060052480/O3nYz9s-_400x400.jpg",
+          firstName: "Divyank",
+          lastName: "Manjarwar",
+          username: "manjarwar_03",
+          profile_pic:
+            "https://media.licdn.com/dms/image/D4D03AQEo_FXvcq9DKw/profile-displayphoto-shrink_800_800/0/1686841927153?e=1696464000&v=beta&t=jHDH7v1OnJQ_LPdWk3VtawmE2eWekkYUowo5FVEkt_Q",
         },
         {
           _id: "4",
           firstName: "Saurabh",
           lastName: "Kumar",
           username: "saurabh",
-          profile_pic: "https://res.cloudinary.com/randomwave45/image/upload/v1650022195/saitama_isaxm6.jpg",
+          profile_pic:
+            "https://res.cloudinary.com/randomwave45/image/upload/v1650022195/saitama_isaxm6.jpg",
         },
       ],
       dislikedBy: [],
@@ -143,10 +158,11 @@ export const posts = [
         postId: "2",
         user: {
           _id: "1",
-          firstName: "Shobhit",
-          lastName: "Raj",
-          username: "shobhitraj",
-          profile_pic: "https://pbs.twimg.com/profile_images/1266934374060052480/O3nYz9s-_400x400.jpg",
+          firstName: "Divyank",
+          lastName: "Manjarwar",
+          username: "manjarwar_03",
+          profile_pic:
+            "https://media.licdn.com/dms/image/D4D03AQEo_FXvcq9DKw/profile-displayphoto-shrink_800_800/0/1686841927153?e=1696464000&v=beta&t=jHDH7v1OnJQ_LPdWk3VtawmE2eWekkYUowo5FVEkt_Q",
         },
         replies: [],
         createdAt: formatRandomCommentDate(),
@@ -158,7 +174,8 @@ export const posts = [
   },
   {
     _id: "3",
-    content: "Hadimba Temple covered with snow, a symbol of peace and tranquility",
+    content:
+      "Hadimba Temple covered with snow, a symbol of peace and tranquility",
     pic: "https://2.bp.blogspot.com/-lWmqyny4pOU/XB_S3p271kI/AAAAAAAAZcU/k-1aAHyk5yAkF--jnHXs90xDwQ7AL1cKACLcBGAs/s1600/hidimba%2Bmata%2B2.jpg",
     username: "ayush",
     postedBy: {
@@ -166,7 +183,8 @@ export const posts = [
       firstName: "Ayush",
       lastName: "Singh",
       username: "ayush",
-      profile_pic: "https://res.cloudinary.com/randomwave45/image/upload/v1650022196/one_piece_1_anib9s.jpg",
+      profile_pic:
+        "https://res.cloudinary.com/randomwave45/image/upload/v1650022196/one_piece_1_anib9s.jpg",
     },
     likes: {
       likeCount: 4,
@@ -176,29 +194,33 @@ export const posts = [
           firstName: "Rahul",
           lastName: "Mallick",
           username: "mallick",
-          profile_pic: "https://staticg.sportskeeda.com/editor/2022/07/c2ed4-16587439752781.png",
+          profile_pic:
+            "https://staticg.sportskeeda.com/editor/2022/07/c2ed4-16587439752781.png",
         },
         {
           _id: "1",
-          firstName: "Shobhit",
-          lastName: "Raj",
-          username: "shobhitraj",
-          profile_pic: "https://pbs.twimg.com/profile_images/1266934374060052480/O3nYz9s-_400x400.jpg",
+          firstName: "Divyank",
+          lastName: "Manjarwar",
+          username: "manjarwar_03",
+          profile_pic:
+            "https://media.licdn.com/dms/image/D4D03AQEo_FXvcq9DKw/profile-displayphoto-shrink_800_800/0/1686841927153?e=1696464000&v=beta&t=jHDH7v1OnJQ_LPdWk3VtawmE2eWekkYUowo5FVEkt_Q",
         },
         {
           _id: "4",
           firstName: "Saurabh",
           lastName: "Kumar",
           username: "saurabh",
-          profile_pic: "https://res.cloudinary.com/randomwave45/image/upload/v1650022195/saitama_isaxm6.jpg",
+          profile_pic:
+            "https://res.cloudinary.com/randomwave45/image/upload/v1650022195/saitama_isaxm6.jpg",
         },
         {
           _id: "5",
           firstName: "Eklavya",
           lastName: "Prasad",
           username: "eklavya",
-          profile_pic: "https://res.cloudinary.com/randomwave45/image/upload/v1650009611/uchicha_crest_ngetfr.jpg",
-        }
+          profile_pic:
+            "https://res.cloudinary.com/randomwave45/image/upload/v1650009611/uchicha_crest_ngetfr.jpg",
+        },
       ],
       dislikedBy: [],
     },
@@ -216,7 +238,8 @@ export const posts = [
       firstName: "Saurabh",
       lastName: "Kumar",
       username: "saurabh",
-      profile_pic: "https://res.cloudinary.com/randomwave45/image/upload/v1650022195/saitama_isaxm6.jpg",
+      profile_pic:
+        "https://res.cloudinary.com/randomwave45/image/upload/v1650022195/saitama_isaxm6.jpg",
     },
     likes: {
       likeCount: 2,
@@ -226,14 +249,16 @@ export const posts = [
           firstName: "Ayush",
           lastName: "Singh",
           username: "ayush",
-          profile_pic: "https://res.cloudinary.com/randomwave45/image/upload/v1650022196/one_piece_1_anib9s.jpg",
+          profile_pic:
+            "https://res.cloudinary.com/randomwave45/image/upload/v1650022196/one_piece_1_anib9s.jpg",
         },
         {
           _id: "2",
           firstName: "Rahul",
           lastName: "Mallick",
           username: "mallick",
-          profile_pic: "https://staticg.sportskeeda.com/editor/2022/07/c2ed4-16587439752781.png",
+          profile_pic:
+            "https://staticg.sportskeeda.com/editor/2022/07/c2ed4-16587439752781.png",
         },
       ],
       dislikedBy: [],
@@ -248,7 +273,8 @@ export const posts = [
           firstName: "Ayush",
           lastName: "Singh",
           username: "ayush",
-          profile_pic: "https://res.cloudinary.com/randomwave45/image/upload/v1650022196/one_piece_1_anib9s.jpg",
+          profile_pic:
+            "https://res.cloudinary.com/randomwave45/image/upload/v1650022196/one_piece_1_anib9s.jpg",
         },
         replies: [
           {
@@ -258,7 +284,8 @@ export const posts = [
               firstName: "Saurabh",
               lastName: "Kumar",
               username: "saurabh",
-              profile_pic: "https://res.cloudinary.com/randomwave45/image/upload/v1650022195/saitama_isaxm6.jpg",
+              profile_pic:
+                "https://res.cloudinary.com/randomwave45/image/upload/v1650022195/saitama_isaxm6.jpg",
             },
             content: "It was nice",
           },
@@ -280,7 +307,8 @@ export const posts = [
       firstName: "Eklavya",
       lastName: "Prasad",
       username: "eklavya",
-      profile_pic: "https://res.cloudinary.com/randomwave45/image/upload/v1650009611/uchicha_crest_ngetfr.jpg",
+      profile_pic:
+        "https://res.cloudinary.com/randomwave45/image/upload/v1650009611/uchicha_crest_ngetfr.jpg",
     },
     likes: {
       likeCount: 2,
@@ -290,14 +318,16 @@ export const posts = [
           firstName: "Nitin",
           lastName: "Lakra",
           username: "tintin",
-          profile_pic: "https://res.cloudinary.com/randomwave45/image/upload/v1650022195/one_piece_2_jcjkvz.jpg",
+          profile_pic:
+            "https://res.cloudinary.com/randomwave45/image/upload/v1650022195/one_piece_2_jcjkvz.jpg",
         },
         {
           _id: "1",
-          firstName: "Shobhit",
-          lastName: "Raj",
-          username: "shobhitraj",
-          profile_pic: "https://pbs.twimg.com/profile_images/1266934374060052480/O3nYz9s-_400x400.jpg",
+          firstName: "Divyank",
+          lastName: "Manjarwar",
+          username: "manjarwar_03",
+          profile_pic:
+            "https://media.licdn.com/dms/image/D4D03AQEo_FXvcq9DKw/profile-displayphoto-shrink_800_800/0/1686841927153?e=1696464000&v=beta&t=jHDH7v1OnJQ_LPdWk3VtawmE2eWekkYUowo5FVEkt_Q",
         },
       ],
       dislikedBy: [],
@@ -309,10 +339,11 @@ export const posts = [
         postId: "5",
         user: {
           _id: "1",
-          firstName: "Shobhit",
-          lastName: "Raj",
-          username: "shobhitraj",
-          profile_pic: "https://pbs.twimg.com/profile_images/1266934374060052480/O3nYz9s-_400x400.jpg",
+          firstName: "Divyank",
+          lastName: "Manjarwar",
+          username: "manjarwar_03",
+          profile_pic:
+            "https://media.licdn.com/dms/image/D4D03AQEo_FXvcq9DKw/profile-displayphoto-shrink_800_800/0/1686841927153?e=1696464000&v=beta&t=jHDH7v1OnJQ_LPdWk3VtawmE2eWekkYUowo5FVEkt_Q",
         },
         replies: [],
         createdAt: formatRandomCommentDate(),
@@ -332,7 +363,8 @@ export const posts = [
       firstName: "Nitin",
       lastName: "Lakra",
       username: "tintin",
-      profile_pic: "https://res.cloudinary.com/randomwave45/image/upload/v1650022195/one_piece_2_jcjkvz.jpg",
+      profile_pic:
+        "https://res.cloudinary.com/randomwave45/image/upload/v1650022195/one_piece_2_jcjkvz.jpg",
     },
     likes: {
       likeCount: 2,
@@ -342,14 +374,16 @@ export const posts = [
           firstName: "Eklavya",
           lastName: "Prasad",
           username: "eklavya",
-          profile_pic: "https://res.cloudinary.com/randomwave45/image/upload/v1650009611/uchicha_crest_ngetfr.jpg",
+          profile_pic:
+            "https://res.cloudinary.com/randomwave45/image/upload/v1650009611/uchicha_crest_ngetfr.jpg",
         },
         {
           _id: "2",
           firstName: "Rahul",
           lastName: "Mallick",
           username: "mallick",
-          profile_pic: "https://staticg.sportskeeda.com/editor/2022/07/c2ed4-16587439752781.png",
+          profile_pic:
+            "https://staticg.sportskeeda.com/editor/2022/07/c2ed4-16587439752781.png",
         },
       ],
       dislikedBy: [],
@@ -362,13 +396,14 @@ export const posts = [
     _id: "7",
     content: "एक ख़ूबसूरत शाम",
     pic: "https://images.pexels.com/photos/6335643/pexels-photo-6335643.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    username: "shobhitraj",
+    username: "manjarwar_03",
     postedBy: {
       _id: "1",
-      firstName: "Shobhit",
-      lastName: "Raj",
-      username: "shobhitraj",
-      profile_pic: "https://pbs.twimg.com/profile_images/1266934374060052480/O3nYz9s-_400x400.jpg",
+      firstName: "Divyank",
+      lastName: "Manjarwar",
+      username: "manjarwar_03",
+      profile_pic:
+        "https://media.licdn.com/dms/image/D4D03AQEo_FXvcq9DKw/profile-displayphoto-shrink_800_800/0/1686841927153?e=1696464000&v=beta&t=jHDH7v1OnJQ_LPdWk3VtawmE2eWekkYUowo5FVEkt_Q",
     },
     likes: {
       likeCount: 2,
@@ -378,14 +413,16 @@ export const posts = [
           firstName: "Ayush",
           lastName: "Singh",
           username: "ayush",
-          profile_pic: "https://res.cloudinary.com/randomwave45/image/upload/v1650022196/one_piece_1_anib9s.jpg",
+          profile_pic:
+            "https://res.cloudinary.com/randomwave45/image/upload/v1650022196/one_piece_1_anib9s.jpg",
         },
         {
           _id: "2",
           firstName: "Rahul",
           lastName: "Mallick",
           username: "mallick",
-          profile_pic: "https://staticg.sportskeeda.com/editor/2022/07/c2ed4-16587439752781.png",
+          profile_pic:
+            "https://staticg.sportskeeda.com/editor/2022/07/c2ed4-16587439752781.png",
         },
       ],
       dislikedBy: [],
@@ -404,7 +441,8 @@ export const posts = [
       firstName: "Rahul",
       lastName: "Mallick",
       username: "mallick",
-      profile_pic: "https://staticg.sportskeeda.com/editor/2022/07/c2ed4-16587439752781.png",
+      profile_pic:
+        "https://staticg.sportskeeda.com/editor/2022/07/c2ed4-16587439752781.png",
     },
     likes: {
       likeCount: 2,
@@ -414,14 +452,16 @@ export const posts = [
           firstName: "Ayush",
           lastName: "Singh",
           username: "ayush",
-          profile_pic: "https://res.cloudinary.com/randomwave45/image/upload/v1650022196/one_piece_1_anib9s.jpg",
+          profile_pic:
+            "https://res.cloudinary.com/randomwave45/image/upload/v1650022196/one_piece_1_anib9s.jpg",
         },
         {
           _id: "1",
-          firstName: "Shobhit",
-          lastName: "Raj",
-          username: "shobhitraj",
-          profile_pic: "https://pbs.twimg.com/profile_images/1266934374060052480/O3nYz9s-_400x400.jpg",
+          firstName: "Divyank",
+          lastName: "Manjarwar",
+          username: "manjarwar_03",
+          profile_pic:
+            "https://media.licdn.com/dms/image/D4D03AQEo_FXvcq9DKw/profile-displayphoto-shrink_800_800/0/1686841927153?e=1696464000&v=beta&t=jHDH7v1OnJQ_LPdWk3VtawmE2eWekkYUowo5FVEkt_Q",
         },
       ],
       dislikedBy: [],
@@ -440,7 +480,8 @@ export const posts = [
       firstName: "Ayush",
       lastName: "Singh",
       username: "ayush",
-      profile_pic: "https://res.cloudinary.com/randomwave45/image/upload/v1650022196/one_piece_1_anib9s.jpg",
+      profile_pic:
+        "https://res.cloudinary.com/randomwave45/image/upload/v1650022196/one_piece_1_anib9s.jpg",
     },
     likes: {
       likeCount: 0,
@@ -461,7 +502,8 @@ export const posts = [
       firstName: "Saurabh",
       lastName: "Kumar",
       username: "saurabh",
-      profile_pic: "https://res.cloudinary.com/randomwave45/image/upload/v1650022195/saitama_isaxm6.jpg",
+      profile_pic:
+        "https://res.cloudinary.com/randomwave45/image/upload/v1650022195/saitama_isaxm6.jpg",
     },
     likes: {
       likeCount: 0,
@@ -482,7 +524,8 @@ export const posts = [
       firstName: "Eklavya",
       lastName: "Prasad",
       username: "eklavya",
-      profile_pic: "https://res.cloudinary.com/randomwave45/image/upload/v1650009611/uchicha_crest_ngetfr.jpg",
+      profile_pic:
+        "https://res.cloudinary.com/randomwave45/image/upload/v1650009611/uchicha_crest_ngetfr.jpg",
     },
     likes: {
       likeCount: 0,
@@ -503,7 +546,8 @@ export const posts = [
       firstName: "Nitin",
       lastName: "Lakra",
       username: "tintin",
-      profile_pic: "https://res.cloudinary.com/randomwave45/image/upload/v1650022195/one_piece_2_jcjkvz.jpg",
+      profile_pic:
+        "https://res.cloudinary.com/randomwave45/image/upload/v1650022195/one_piece_2_jcjkvz.jpg",
     },
     likes: {
       likeCount: 0,
@@ -518,13 +562,14 @@ export const posts = [
     _id: "13",
     content: "enjoying the ocean's breeze",
     pic: "https://images.pexels.com/photos/16208497/pexels-photo-16208497/free-photo-of-hills-on-sea-shore.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
-    username: "shobhitraj",
+    username: "manjarwar_03",
     postedBy: {
       _id: "1",
-      firstName: "Shobhit",
-      lastName: "Raj",
-      username: "shobhitraj",
-      profile_pic: "https://pbs.twimg.com/profile_images/1266934374060052480/O3nYz9s-_400x400.jpg",
+      firstName: "Divyank",
+      lastName: "Manjarwar",
+      username: "manjarwar_03",
+      profile_pic:
+        "https://media.licdn.com/dms/image/D4D03AQEo_FXvcq9DKw/profile-displayphoto-shrink_800_800/0/1686841927153?e=1696464000&v=beta&t=jHDH7v1OnJQ_LPdWk3VtawmE2eWekkYUowo5FVEkt_Q",
     },
     likes: {
       likeCount: 0,
@@ -545,7 +590,8 @@ export const posts = [
       firstName: "Rahul",
       lastName: "Mallick",
       username: "mallick",
-      profile_pic: "https://staticg.sportskeeda.com/editor/2022/07/c2ed4-16587439752781.png",
+      profile_pic:
+        "https://staticg.sportskeeda.com/editor/2022/07/c2ed4-16587439752781.png",
     },
     likes: {
       likeCount: 0,
@@ -566,7 +612,8 @@ export const posts = [
       firstName: "Ayush",
       lastName: "Singh",
       username: "ayush",
-      profile_pic: "https://res.cloudinary.com/randomwave45/image/upload/v1650022196/one_piece_1_anib9s.jpg",
+      profile_pic:
+        "https://res.cloudinary.com/randomwave45/image/upload/v1650022196/one_piece_1_anib9s.jpg",
     },
     likes: {
       likeCount: 0,
@@ -587,7 +634,8 @@ export const posts = [
       firstName: "Saurabh",
       lastName: "Kumar",
       username: "saurabh",
-      profile_pic: "https://res.cloudinary.com/randomwave45/image/upload/v1650022195/saitama_isaxm6.jpg",
+      profile_pic:
+        "https://res.cloudinary.com/randomwave45/image/upload/v1650022195/saitama_isaxm6.jpg",
     },
     likes: {
       likeCount: 0,
@@ -608,7 +656,8 @@ export const posts = [
       firstName: "Eklavya",
       lastName: "Prasad",
       username: "eklavya",
-      profile_pic: "https://res.cloudinary.com/randomwave45/image/upload/v1650009611/uchicha_crest_ngetfr.jpg",
+      profile_pic:
+        "https://res.cloudinary.com/randomwave45/image/upload/v1650009611/uchicha_crest_ngetfr.jpg",
     },
     likes: {
       likeCount: 0,
@@ -629,7 +678,8 @@ export const posts = [
       firstName: "Nitin",
       lastName: "Lakra",
       username: "tintin",
-      profile_pic: "https://res.cloudinary.com/randomwave45/image/upload/v1650022195/one_piece_2_jcjkvz.jpg",
+      profile_pic:
+        "https://res.cloudinary.com/randomwave45/image/upload/v1650022195/one_piece_2_jcjkvz.jpg",
     },
     likes: {
       likeCount: 0,
@@ -644,13 +694,14 @@ export const posts = [
     _id: "19",
     content: "serene",
     pic: "https://images.pexels.com/photos/3384815/pexels-photo-3384815.jpeg?auto=compress&cs=tinysrgb&w=600",
-    username: "shobhitraj",
+    username: "manjarwar_03",
     postedBy: {
       _id: "1",
-      firstName: "Shobhit",
-      lastName: "Raj",
-      username: "shobhitraj",
-      profile_pic: "https://pbs.twimg.com/profile_images/1266934374060052480/O3nYz9s-_400x400.jpg",
+      firstName: "Divyank",
+      lastName: "Manjarwar",
+      username: "manjarwar_03",
+      profile_pic:
+        "https://media.licdn.com/dms/image/D4D03AQEo_FXvcq9DKw/profile-displayphoto-shrink_800_800/0/1686841927153?e=1696464000&v=beta&t=jHDH7v1OnJQ_LPdWk3VtawmE2eWekkYUowo5FVEkt_Q",
     },
     likes: {
       likeCount: 0,
@@ -671,7 +722,8 @@ export const posts = [
       firstName: "Rahul",
       lastName: "Mallick",
       username: "mallick",
-      profile_pic: "https://staticg.sportskeeda.com/editor/2022/07/c2ed4-16587439752781.png",
+      profile_pic:
+        "https://staticg.sportskeeda.com/editor/2022/07/c2ed4-16587439752781.png",
     },
     likes: {
       likeCount: 0,
@@ -692,7 +744,8 @@ export const posts = [
       firstName: "Ayush",
       lastName: "Singh",
       username: "ayush",
-      profile_pic: "https://res.cloudinary.com/randomwave45/image/upload/v1650022196/one_piece_1_anib9s.jpg",
+      profile_pic:
+        "https://res.cloudinary.com/randomwave45/image/upload/v1650022196/one_piece_1_anib9s.jpg",
     },
     likes: {
       likeCount: 0,
@@ -713,7 +766,8 @@ export const posts = [
       firstName: "Saurabh",
       lastName: "Kumar",
       username: "saurabh",
-      profile_pic: "https://res.cloudinary.com/randomwave45/image/upload/v1650022195/saitama_isaxm6.jpg",
+      profile_pic:
+        "https://res.cloudinary.com/randomwave45/image/upload/v1650022195/saitama_isaxm6.jpg",
     },
     likes: {
       likeCount: 0,
@@ -734,7 +788,8 @@ export const posts = [
       firstName: "Eklavya",
       lastName: "Prasad",
       username: "eklavya",
-      profile_pic: "https://res.cloudinary.com/randomwave45/image/upload/v1650009611/uchicha_crest_ngetfr.jpg",
+      profile_pic:
+        "https://res.cloudinary.com/randomwave45/image/upload/v1650009611/uchicha_crest_ngetfr.jpg",
     },
     likes: {
       likeCount: 0,
@@ -755,7 +810,8 @@ export const posts = [
       firstName: "Nitin",
       lastName: "Lakra",
       username: "tintin",
-      profile_pic: "https://res.cloudinary.com/randomwave45/image/upload/v1650022195/one_piece_2_jcjkvz.jpg",
+      profile_pic:
+        "https://res.cloudinary.com/randomwave45/image/upload/v1650022195/one_piece_2_jcjkvz.jpg",
     },
     likes: {
       likeCount: 0,
@@ -770,13 +826,14 @@ export const posts = [
     _id: "25",
     content: "गंगा आरती",
     pic: "https://images.pexels.com/photos/7919683/pexels-photo-7919683.jpeg?auto=compress&cs=tinysrgb&w=600",
-    username: "shobhitraj",
+    username: "manjarwar_03",
     postedBy: {
       _id: "1",
-      firstName: "Shobhit",
-      lastName: "Raj",
-      username: "shobhitraj",
-      profile_pic: "https://pbs.twimg.com/profile_images/1266934374060052480/O3nYz9s-_400x400.jpg",
+      firstName: "Divyank",
+      lastName: "Manjarwar",
+      username: "manjarwar_03",
+      profile_pic:
+        "https://media.licdn.com/dms/image/D4D03AQEo_FXvcq9DKw/profile-displayphoto-shrink_800_800/0/1686841927153?e=1696464000&v=beta&t=jHDH7v1OnJQ_LPdWk3VtawmE2eWekkYUowo5FVEkt_Q",
     },
     likes: {
       likeCount: 0,
@@ -797,7 +854,8 @@ export const posts = [
       firstName: "Rahul",
       lastName: "Mallick",
       username: "mallick",
-      profile_pic: "https://staticg.sportskeeda.com/editor/2022/07/c2ed4-16587439752781.png",
+      profile_pic:
+        "https://staticg.sportskeeda.com/editor/2022/07/c2ed4-16587439752781.png",
     },
     likes: {
       likeCount: 0,
@@ -818,7 +876,8 @@ export const posts = [
       firstName: "Ayush",
       lastName: "Singh",
       username: "ayush",
-      profile_pic: "https://res.cloudinary.com/randomwave45/image/upload/v1650022196/one_piece_1_anib9s.jpg",
+      profile_pic:
+        "https://res.cloudinary.com/randomwave45/image/upload/v1650022196/one_piece_1_anib9s.jpg",
     },
     likes: {
       likeCount: 0,
@@ -839,7 +898,8 @@ export const posts = [
       firstName: "Saurabh",
       lastName: "Kumar",
       username: "saurabh",
-      profile_pic: "https://res.cloudinary.com/randomwave45/image/upload/v1650022195/saitama_isaxm6.jpg",
+      profile_pic:
+        "https://res.cloudinary.com/randomwave45/image/upload/v1650022195/saitama_isaxm6.jpg",
     },
     likes: {
       likeCount: 0,
@@ -860,7 +920,8 @@ export const posts = [
       firstName: "Eklavya",
       lastName: "Prasad",
       username: "eklavya",
-      profile_pic: "https://res.cloudinary.com/randomwave45/image/upload/v1650009611/uchicha_crest_ngetfr.jpg",
+      profile_pic:
+        "https://res.cloudinary.com/randomwave45/image/upload/v1650009611/uchicha_crest_ngetfr.jpg",
     },
     likes: {
       likeCount: 0,
@@ -881,7 +942,8 @@ export const posts = [
       firstName: "Nitin",
       lastName: "Lakra",
       username: "tintin",
-      profile_pic: "https://res.cloudinary.com/randomwave45/image/upload/v1650022195/one_piece_2_jcjkvz.jpg",
+      profile_pic:
+        "https://res.cloudinary.com/randomwave45/image/upload/v1650022195/one_piece_2_jcjkvz.jpg",
     },
     likes: {
       likeCount: 0,
@@ -893,4 +955,3 @@ export const posts = [
     updatedAt: formatRandomPostDate(),
   },
 ];
-
