@@ -1,17 +1,18 @@
 <div align="center">
     
-# Raj-Sphere
+# CommuniTree
   A Social Media website
 </div>
 
 ## **How to install and run locally ?**
 
 ```
-$ git clone https://github.com/shobhit-28/neog-raj-sphere.git
-$ cd neog-raj-sphere
+$ git clone git@github.com:Divyank13/CommuniTree.git
+$ cd CommuniTree
 $ npm install
 $ npm start
 ```
+
 ## **Features -**
 
 - Home page
@@ -32,8 +33,8 @@ $ npm start
 - Authentication:
   - User Signup
   - User Login
- - Fully Responsive
- - Loaders and Toasts
+- Fully Responsive
+- Loaders and Toasts
 
 ## **Built with -**
 
@@ -41,7 +42,3 @@ $ npm start
 - React Context API + useReducer
 - React Router v6
 - Vanilla CSS
-
-## **Demo -**
-
-https://github.com/shobhit-28/neog-raj-sphere/assets/92620327/917fcc67-10f9-4800-8caf-9558f2b88337
